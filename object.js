@@ -22,8 +22,6 @@ const wycliffe=new js("wycliffe","musango","willy",23,"musangowilly@gmail.com");
 const lewis=new js("lewis","machabe",37,"lewis@gmail.com");
 
 const jsArr=[sharon,lewis]
-
-
 //new object constructors and prototype
 
 //object constructors 
@@ -35,4 +33,11 @@ function js(firstname,lastname,age,email){
     this.age=age;
     this.email=email;
 }
+
+return this.firstname + " " + this.lastname;
+}
+const name="sharon";
+
+function call(){
+    console.log(name)
 
