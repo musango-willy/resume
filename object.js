@@ -22,3 +22,17 @@ const wycliffe=new js("wycliffe","musango","willy",23,"musangowilly@gmail.com");
 const lewis=new js("lewis","machabe",37,"lewis@gmail.com");
 
 const jsArr=[sharon,lewis]
+
+
+//new object constructors and prototype
+
+//object constructors 
+
+function js(firstname,lastname,age,email){
+
+    this.firstname=firstname;
+    this.lastname=lastname;
+    this.age=age;
+    this.email=email;
+}
+
